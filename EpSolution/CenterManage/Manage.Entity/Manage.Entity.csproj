@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{604FB24F-7706-497C-BEC7-27D7B6B5A82C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Manage.Entity</RootNamespace>
+    <AssemblyName>Manage.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BI\BarChartData.cs" />
+    <Compile Include="BI\BarChartResult.cs" />
+    <Compile Include="DataResult.cs" />
+    <Compile Include="Inspect\InspectDeviceEntity.cs" />
+    <Compile Include="Inspect\InspectDataEntity.cs" />
+    <Compile Include="Inspect\InspectResultEntity.cs" />
+    <Compile Include="MES\BOMDetail.cs" />
+    <Compile Include="MES\EquipmentInfo.cs" />
+    <Compile Include="MES\EquipmentRef.cs" />
+    <Compile Include="MES\FactoryInfo.cs" />
+    <Compile Include="MES\GoodInfo.cs" />
+    <Compile Include="MES\GoodPackingForm.cs" />
+    <Compile Include="MES\OnProcessingInfo.cs" />
+    <Compile Include="MES\ProcessFlow.cs" />
+    <Compile Include="MES\ProcessInfo.cs" />
+    <Compile Include="MES\ProduceBOM.cs" />
+    <Compile Include="MES\ProducePlan.cs" />
+    <Compile Include="MES\ProduceTrack.cs" />
+    <Compile Include="MES\ProductInfo.cs" />
+    <Compile Include="MES\ProductLine.cs" />
+    <Compile Include="MES\QualityCheckCondition.cs" />
+    <Compile Include="MES\QualityCheckInfo.cs" />
+    <Compile Include="MES\QualityCheckResult.cs" />
+    <Compile Include="MES\SchedulingInfo.cs" />
+    <Compile Include="MES\StationRef.cs" />
+    <Compile Include="MES\SupplyInfo.cs" />
+    <Compile Include="MES\SupplyMaterialInfo.cs" />
+    <Compile Include="MES\WorkGroup.cs" />
+    <Compile Include="MES\WorkGroupRef.cs" />
+    <Compile Include="MES\WorkStation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Query\QualityTraceCondition.cs" />
+    <Compile Include="Query\QualityTraceInfo.cs" />
+    <Compile Include="Query\TraceGood.cs" />
+    <Compile Include="Query\TraceMaterial.cs" />
+    <Compile Include="Query\TraceProcess.cs" />
+    <Compile Include="Inspect\InspectItemEntity.cs" />
+    <Compile Include="Sys\BaseDictInfo.cs" />
+    <Compile Include="Sys\CommonDictInfo.cs" />
+    <Compile Include="Sys\DataMark.cs" />
+    <Compile Include="Sys\DataMarkDetail.cs" />
+    <Compile Include="Sys\NoticeInfo.cs" />
+    <Compile Include="Sys\NoticeUpdateInfo.cs" />
+    <Compile Include="Sys\Orgaization.cs" />
+    <Compile Include="Sys\OrgaizationAuthority.cs" />
+    <Compile Include="Sys\PowerInfo.cs" />
+    <Compile Include="Sys\Role.cs" />
+    <Compile Include="Sys\RoleAuthority.cs" />
+    <Compile Include="Sys\User.cs" />
+    <Compile Include="Sys\UserAuthority.cs" />
+    <Compile Include="Sys\UserOrgaization.cs" />
+    <Compile Include="Sys\UserRole.cs" />
+    <Compile Include="Sys\SystemOperateLog.cs" />
+    <Compile Include="Video\VDPosition.cs" />
+    <Compile Include="Video\VDCamera.cs" />
+    <Compile Include="WH\CheckStockBill.cs" />
+    <Compile Include="WH\CheckStockDetail.cs" />
+    <Compile Include="WH\InStockBill.cs" />
+    <Compile Include="WH\InStockDetail.cs" />
+    <Compile Include="WH\InStockQueryResult.cs" />
+    <Compile Include="WH\MatGetResult.cs" />
+    <Compile Include="WH\MatIDCode.cs" />
+    <Compile Include="WH\MatType.cs" />
+    <Compile Include="WH\MatUnit.cs" />
+    <Compile Include="WH\MoveStockBill.cs" />
+    <Compile Include="WH\MoveStockDetail.cs" />
+    <Compile Include="WH\MoveStockRecord.cs" />
+    <Compile Include="WH\OutStockBill.cs" />
+    <Compile Include="WH\OutStockDetail.cs" />
+    <Compile Include="WH\QualityCheckCondition.cs" />
+    <Compile Include="WH\WHQualityCheckResult.cs" />
+    <Compile Include="WH\StockWarningResult.cs" />
+    <Compile Include="WH\UseMatAmount.cs" />
+    <Compile Include="WH\UseMatBill.cs" />
+    <Compile Include="WH\UseMatDetail.cs" />
+    <Compile Include="WH\Warehouse.cs" />
+    <Compile Include="WH\WarehousePower.cs" />
+    <Compile Include="WH\WHInMode.cs" />
+    <Compile Include="WH\WHMat.cs" />
+    <Compile Include="WH\WHMatAmount.cs" />
+    <Compile Include="WH\WHMatSpec.cs" />
+    <Compile Include="WH\WHMonthAccount.cs" />
+    <Compile Include="WH\WHProvider.cs" />
+    <Compile Include="WH\WHQualityCheck.cs" />
+    <Compile Include="WH\WHSite.cs" />
+    <Compile Include="WH\WHSpec.cs" />
+    <Compile Include="WH\InStockBillView.cs" />
+    <Compile Include="WH\InStockDetailView.cs" />
+    <Compile Include="WH\WHOutMode.cs" />
+    <Compile Include="WH\WHClient.cs" />
+    <Compile Include="WH\OutStockDetailView.cs" />
+    <Compile Include="WH\OutStockBillView.cs" />
+    <Compile Include="WH\WHArea.cs" />
+    <Compile Include="WH\OutStockQueryResult.cs" />
+    <Compile Include="WH\CheckStockQueryResult.cs" />
+    <Compile Include="WH\WHStockLimit.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LAF\LAF.Data.Attributes\LAF.Data.Attributes.csproj">
+      <Project>{417EBF7F-183D-4811-8649-6C289E490E9A}</Project>
+      <Name>LAF.Data.Attributes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LAF\LAF.Entity\LAF.Entity.csproj">
+      <Project>{14ABACE5-52C5-42B5-95CA-F9BEFEF194EC}</Project>
+      <Name>LAF.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--MenuType，menu：菜单,action：功能-->
+<!--IsPower，true：进行权限校验,false：不进行权限校验-->
+<MenuList>  
+  <MenuItem MenuID="01000000" MenuDes="系统管理" IsPower="true" Action="" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="01010000" MenuDes="角色管理" IsPower="true" Action="/Role/ManageRole.aspx" Target="url" PowerID="01010000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="01000000" Seq="1">
+    <Actions>
+      <Action ContorllerName="Role" ActionName="RoleList" PowerID="01010000">查询</Action>
+      <Action ContorllerName="Role" ActionName="RoleEdit" PowerID="01010001">新建</Action>
+      <Action ContorllerName="Role" ActionName="RoleDelete" PowerID="01010003">删除</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="01020000" MenuDes="组织机构信息" IsPower="true" Action="/Organ/ManageOrgan.aspx" Target="url" PowerID="01020000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="01000000" Seq="1">
+    <Actions>
+      <Action  ContorllerName="Orgaization" ActionName="OrgaizationList" PowerID="01020000">查询</Action>
+      <Action  ContorllerName="Orgaization" ActionName="OrgaizationEdit" PowerID="01020001">新建</Action>
+      <Action  ContorllerName="Orgaization" ActionName="OrgaizationDelete" PowerID="01020003">删除</Action>
+      <Action  ContorllerName="Orgaization" ActionName="OrgaizationUser" PowerID="01020004">人员</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="01030000" MenuDes="用户管理" IsPower="true" Action="/User/ManageUser.aspx" Target="url" PowerID="01030000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="01000000" Seq="2">
+    <Actions>
+     
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whbase" MenuDes="库存基础数据" IsPower="true" Action="" PowerID="whbase" Visible="true" Ico="" SuperID="" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="wh01" MenuDes="仓库" IsPower="true" Target="url" Action="/WH/Base/ManageWarehouse.aspx" PowerID="wh01" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="wharea" MenuDes="存储区域" IsPower="true" Target="url" Action="/WH/Base/ManageWHAreaFrm.aspx" PowerID="wharea" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="wh02" MenuDes="仓位" IsPower="true" Target="url" Action="/WH/Base/ManageWHSiteFrm.aspx" PowerID="wh02" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>  
+  <MenuItem MenuID="wh03" MenuDes="货品类别" IsPower="true" Target="url" Action="/WH/Base/ManageMatType.aspx" PowerID="wh03" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="wh04" MenuDes="货品信息" IsPower="true" Target="url" Action="/WH/Base/ManageWHMat.aspx" PowerID="wh04" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="wh05" MenuDes="规格" IsPower="true" Target="url" Action="/WH/Base/ManageWHSpec.aspx" PowerID="wh05" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="wh06" MenuDes="计量单位" IsPower="true" Target="url" Action="/WH/Base/ManageMatUnit.aspx" PowerID="wh06" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="wh07" MenuDes="供货单位" IsPower="true" Target="url" Action="/WH/Base/ManageWHProvider.aspx" PowerID="wh07" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="wh08" MenuDes="收货单位" IsPower="true" Target="url" Action="/WH/Base/ManageWHClient.aspx" PowerID="wh08" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="wh09" MenuDes="入库方式" IsPower="true" Target="url" Action="/WH/Base/ManageInMode.aspx" PowerID="wh09" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="wh10" MenuDes="出库方式" IsPower="true" Target="url" Action="/WH/Base/ManageOutMode.aspx" PowerID="wh10" Visible="true" Ico="" SuperID="whbase" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whin" MenuDes="入库管理" IsPower="true" Action="" PowerID="whin" Visible="true" Ico="" SuperID="" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whin01" MenuDes="入库管理" IsPower="true" Target="url" Action="/WH/In/ManageInStockBill.aspx" PowerID="whin01" Visible="true" Ico="" SuperID="whin" Seq="1">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whin02" MenuDes="入库查询" IsPower="true" Target="url" Action="/WH/Query/InStockQueryList.aspx" PowerID="whin02" Visible="true" Ico="" SuperID="whin" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whin03" MenuDes="领料管理" IsPower="true" Target="url" Action="/WH/In/ManageUseMat.aspx" PowerID="whin03" Visible="true" Ico="" SuperID="whin" Seq="3">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whout" MenuDes="出库管理" IsPower="true" Action="" PowerID="whout" Visible="true" Ico="" SuperID="" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whout01" MenuDes="出库管理" IsPower="true" Target="url" Action="/WH/Out/ManageOutStockBill.aspx" PowerID="whout01" Visible="true" Ico="" SuperID="whout" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whout02" MenuDes="出库查询" IsPower="true" Target="url" Action="/WH/Query/OutStockQueryList.aspx" PowerID="whout02" Visible="true" Ico="" SuperID="whout" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whmanage" MenuDes="库存管理" IsPower="true" Action="" PowerID="whmanage" Visible="true" Ico="" SuperID="" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>    
+  <MenuItem MenuID="whmanage03" MenuDes="库存盘点" IsPower="true" Target="url" Action="/WH/Stock/ManageCheckStock.aspx" PowerID="whmanage03" Visible="true" Ico="" SuperID="whmanage" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whmanage02" MenuDes="库内移动" IsPower="true" Action="" PowerID="whmanage02" Visible="true" Ico="" SuperID="whmanage" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <!--<MenuItem MenuID="whmanage01" MenuDes="库间调拨" IsPower="true" Action="" PowerID="whmanage01" Visible="true" Ico="" SuperID="whmanage" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>-->
+  <MenuItem MenuID="whmanage07" MenuDes="质量检查" Target="url" IsPower="true" Action="/WH/Stock/ManageQualityCheck.aspx" PowerID="whmanage07" Visible="true" Ico="" SuperID="whmanage" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whmanage05" MenuDes="库存预警设置" Target="url" IsPower="true" Action="/WH/Base/ManageStockLimitFrm.aspx" PowerID="whmanage05" Visible="true" Ico="" SuperID="whmanage" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <!--<MenuItem MenuID="whmanage06" MenuDes="库存初始化" IsPower="true" Action="" PowerID="whmanage06" Visible="true" Ico="" SuperID="whmanage" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>-->  
+  <MenuItem MenuID="whstate" MenuDes="库存统计查询" IsPower="true" Action="" PowerID="whstate" Visible="true" Ico="" SuperID="" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whstate01" MenuDes="库存查询" IsPower="true" Target="url" Action="/WH/Query/QueryStockAmount.aspx" PowerID="whstate01" Visible="true" Ico="" SuperID="whstate" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whstate02" MenuDes="库存台账" IsPower="true" Target="url" Action="/WH/Report/QueryStoctAccount.aspx" PowerID="whstate02" Visible="true" Ico="" SuperID="whstate" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whstate03" MenuDes="库存预警查询" IsPower="true" Target="url" Action="/WH/Query/QueryStockWarning.aspx" PowerID="whstate03" Visible="true" Ico="" SuperID="whstate" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="whstate04" MenuDes="货品过期预警查询" IsPower="true" Target="url" Action="/WH/Query/QueryOverdueAlarm.aspx" PowerID="whstate03" Visible="true" Ico="" SuperID="whstate" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <!--食品加工 -->
+ <MenuItem MenuID="fp01" MenuDes="生产基础数据" IsPower="true" Action="" PowerID="fp01" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="" Seq="3">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010101" MenuDes="工厂信息" IsPower="true" Action="/MES/Base/ManageFactoryInfo.aspx" Target="url" PowerID="fp010101" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+      <Action ContorllerName="Role" ActionName="RoleList" PowerID="01010000">查询</Action>
+      <Action ContorllerName="Role" ActionName="RoleEdit" PowerID="01010001">新建</Action>
+      <Action ContorllerName="Role" ActionName="RoleDelete" PowerID="01010003">删除</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010102" MenuDes="生产线" IsPower="true" Action="/MES/Base/ManageProductLine.aspx" Target="url" PowerID="fp010102" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+      <Action ContorllerName="Role" ActionName="RoleList" PowerID="01010000">查询</Action>
+      <Action ContorllerName="Role" ActionName="RoleEdit" PowerID="01010001">新建</Action>
+      <Action ContorllerName="Role" ActionName="RoleDelete" PowerID="01010003">删除</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010103" MenuDes="工位" IsPower="true" Action="/MES/Base/ManageWorkStationM.aspx" Target="url" PowerID="fp010103" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+      <Action ContorllerName="Role" ActionName="RoleList" PowerID="01010000">查询</Action>
+      <Action ContorllerName="Role" ActionName="RoleEdit" PowerID="01010001">新建</Action>
+      <Action ContorllerName="Role" ActionName="RoleDelete" PowerID="01010003">删除</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010104" MenuDes="设备管理" IsPower="true" Action="/MES/Base/ManageEquipmentM.aspx" Target="url" PowerID="fp010104" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+      <Action  ContorllerName="Orgaization" ActionName="OrgaizationList" PowerID="01020000">查询</Action>
+      <Action  ContorllerName="Orgaization" ActionName="OrgaizationEdit" PowerID="01020001">新建</Action>
+      <Action  ContorllerName="Orgaization" ActionName="OrgaizationDelete" PowerID="01020003">删除</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010105" MenuDes="工艺流程" IsPower="true" Action="/MES/Base/ManageProcessFlowM.aspx" Target="url" PowerID="fp010105" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+      <Action ContorllerName="Role" ActionName="RoleList" PowerID="01010000">查询</Action>
+      <Action ContorllerName="Role" ActionName="RoleEdit" PowerID="01010001">新建</Action>
+      <Action ContorllerName="Role" ActionName="RoleDelete" PowerID="01010003">删除</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010106" MenuDes="工序信息" IsPower="true" Action="/MES/Base/ManageProcessInfoM.aspx" Target="url" PowerID="fp010106" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+      <Action ContorllerName="Role" ActionName="RoleList" PowerID="01010000">查询</Action>
+      <Action ContorllerName="Role" ActionName="RoleEdit" PowerID="01010001">新建</Action>
+      <Action ContorllerName="Role" ActionName="RoleDelete" PowerID="01010003">删除</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010107" MenuDes="产品信息" IsPower="true" Action="/MES/Base/ManageProductInfo.aspx" Target="url" PowerID="fp010107" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+      <Action ContorllerName="Role" ActionName="RoleList" PowerID="01010000">查询</Action>
+      <Action ContorllerName="Role" ActionName="RoleEdit" PowerID="01010001">新建</Action>
+      <Action ContorllerName="Role" ActionName="RoleDelete" PowerID="01010003">删除</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010108" MenuDes="班组信息" IsPower="true" Action="/MES/Base/ManageWorkGroup.aspx" Target="url" PowerID="fp010108" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+      <Action ContorllerName="Role" ActionName="RoleList" PowerID="01010000">查询</Action>
+      <Action ContorllerName="Role" ActionName="RoleEdit" PowerID="01010001">新建</Action>
+      <Action ContorllerName="Role" ActionName="RoleDelete" PowerID="01010003">删除</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010109" MenuDes="排班信息" IsPower="true" Action="/MES/Base/ManageSchedulingInfo.aspx" Target="url" PowerID="fp010109" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+      <Action ContorllerName="Role" ActionName="RoleList" PowerID="01010000">查询</Action>
+      <Action ContorllerName="Role" ActionName="RoleEdit" PowerID="01010001">新建</Action>
+      <Action ContorllerName="Role" ActionName="RoleDelete" PowerID="01010003">删除</Action>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010110" MenuDes="产品BOM信息" IsPower="true" Action="/MES/Base/ManageBOM.aspx" Target="url" PowerID="fp010110" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp010111" MenuDes="追溯二维码生成" IsPower="true" Action="/MES/Tracking/QRcodeBuilder.aspx" Target="url" PowerID="fp010111" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp01" Seq="3">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="zhijian" MenuDes="产品质检管理" IsPower="true" Action="" PowerID="zhijian" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="" Seq="4">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="zhijian01" MenuDes="产品质检管理" IsPower="true" Action="/MES/QualityCheck/ManageQualityCheck.aspx" Target="url" PowerID="zhijian01" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="zhijian" Seq="1">
+    <Actions>
+
+    </Actions>
+  </MenuItem>
+  <!--食品加工计划管理 -->
+  <MenuItem MenuID="fp02" MenuDes="生产管理" IsPower="true" Action="" PowerID="fp02" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="" Seq="3">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp0201" MenuDes="生产计划" IsPower="true" Action="/MES/PlanManagement/PlanManagementList.aspx" Target="url" PowerID="fp0201" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp02" Seq="3">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp0202" MenuDes="要货信息" IsPower="true" Action="/MES/PlanManagement/ManageSupplyInfo.aspx" Target="url" PowerID="fp0202" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp02" Seq="3">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp03" MenuDes="追溯查询" IsPower="true" Action="" PowerID="fp03" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="" Seq="3">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="fp0301" MenuDes="产品档案" IsPower="true" Action="/MES/Query/QualityTraceQuery.aspx" Target="url" PowerID="fp0301" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="fp03" Seq="1">
+    <Actions>
+     
+    </Actions>
+  </MenuItem>
+  <!--<MenuItem MenuID="Video" MenuDes="视频监控管理" IsPower="true" Action="" PowerID="Video" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="Video01" MenuDes="位置信息" IsPower="true" Action="/Video/ManageVDPosition.aspx" Target="url" PowerID="Video01" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="Video" Seq="1">
+
+  </MenuItem>
+  <MenuItem MenuID="Video02" MenuDes="摄像头信息" IsPower="true" Action="/Video/ManageVDCamera.aspx" Target="url" PowerID="Video02" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="Video" Seq="2">
+
+  </MenuItem>
+  <MenuItem MenuID="Video03" MenuDes="视频监控" IsPower="true" Action="/Video/VideoMonitorList.aspx" Target="url" PowerID="Video03" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="Video" Seq="2">
+
+  </MenuItem>
+  <MenuItem MenuID="decision" MenuDes="决策支持" IsPower="true" Action="" PowerID="decision" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="decision01" MenuDes="监控中心" IsPower="true" Action="openMonitorCenter()" Target="func" PowerID="decision01" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="decision" Seq="1">
+
+  </MenuItem>-->
+  <MenuItem MenuID="HD" MenuDes="手持" IsPower="true" Action="" PowerID="HD" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="" Seq="21">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="HD01" MenuDes="入库(条码)" IsPower="true" Action="GotoUrl('WH/In/MlInStorageByMobile.aspx');" PowerID="HD01" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <!--<MenuItem MenuID="HD02" MenuDes="产成品入库" IsPower="true" Action="GotoUrl('WH/In/FGInStorageByMobile.aspx');" PowerID="HD02" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>-->
+  <MenuItem MenuID="HDInMat" MenuDes="入库(数量)" IsPower="true" Action="GotoUrl('WH/In/InMatStorageMobile.aspx');" PowerID="HDInMat" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="HD03" MenuDes="出库(条码整包)" IsPower="true" Action="GotoUrl('WH/Out/MlOutStorageByMobile.aspx');" PowerID="HD03" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="OMSP" MenuDes="出库(条码拆包)" IsPower="true" Action="GotoUrl('WH/Out/OutMatSplitPackage.aspx');" PowerID="OMSP" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <!--<MenuItem MenuID="HD04" MenuDes="产成品出库" IsPower="true" Action="GotoUrl('WH/Out/FGOutStorageByMobile.aspx');" PowerID="HD04" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>-->
+  <MenuItem MenuID="HDOutMat" MenuDes="出库(数量)" IsPower="true" Action="GotoUrl('WH/Out/OutMatStorageMobile.aspx');" PowerID="HDOutMat" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="InsideMove" MenuDes="库内移动" IsPower="true" Action="GotoUrl('WH/Move/InsideMoveByMobile.aspx');" PowerID="InsideMove" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="HD05" MenuDes="原材料上线" IsPower="true" Action="GotoUrl('MES/Tracking/MaterialOnline.aspx');" PowerID="HD05" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="HD06" MenuDes="追溯跟踪" IsPower="true" Action="GotoUrl('MES/Tracking/MaterialTrace.aspx');" PowerID="HD06" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="HD07" MenuDes="在加工列表" IsPower="true" Action="GotoUrl('MES/Tracking/OnProcessingList.aspx');" PowerID="HD07" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="HD08" MenuDes="成品装箱" IsPower="true" Action="GotoUrl('MES/Tracking/MaterialPacking.aspx');" PowerID="HD08" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="HD09" MenuDes="产成品下线" IsPower="true" Action="GotoUrl('MES/Tracking/MaterialOffline.aspx');" PowerID="HD09" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="HD10" MenuDes="生产计划管理" IsPower="true" Action="GotoUrl('MES/Tracking/ProducePlanManage.aspx');" PowerID="HD10" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="Inspect" MenuDes="环境监测" IsPower="true" Action="" PowerID="Inspect" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="" Seq="22">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="Inspect01" MenuDes="监测项目" IsPower="true" Action="/Inspect/InspectItemInfo.aspx" Target="url" PowerID="Inspect01" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="Inspect" Seq="1">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="Inspect02" MenuDes="监测设备" IsPower="true" Action="/Inspect/InspectDeviceInfo.aspx" Target="url" PowerID="Inspect02" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="Inspect" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="Inspect03" MenuDes="监测数据查询" IsPower="true" Action="/Inspect/InspectData.aspx" Target="url" PowerID="Inspect03" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="Inspect" Seq="3">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="Inspect04" MenuDes="空间地图监测查询" IsPower="true" Action="/Inspect/InspectMap.aspx" Target="url" PowerID="Inspect04" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="Inspect" Seq="4">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="Inspect05" MenuDes="监测结果" IsPower="true" Action="/Inspect/InspectResult.aspx" Target="url" PowerID="Inspect05" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="Inspect" Seq="5">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="Inspect06" MenuDes="监测数据统计" IsPower="true" Action="/Inspect/InspectStatistics.aspx" Target="url" PowerID="Inspect06" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="Inspect" Seq="6">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="Inspect07" MenuDes="监测趋势分析" IsPower="true" Action="/Inspect/InspectStatisticsEChart.aspx" Target="url" PowerID="Inspect07" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="Inspect" Seq="7">
+    <Actions>
+    </Actions>
+  </MenuItem>
+</MenuList>

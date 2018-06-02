@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section{display: block;}
+body{line-height: 1;}
+ol, ul{list-style: none;}
+blockquote, q{quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after{content: '';content: none;}
+table{border-collapse: collapse;border-spacing: 0;}
+img{border:none;}
+body{ font: 13px/1 'Microsoft Yahei','Simsun','Microsoft Yahei',Verdana, Geneva, sans-serif;color: #333;line-height:22px;}
+a{text-decoration: none; color: #333; cursor: pointer;}
+a:hover{text-decoration: none; color: #f30;}
+.clear{display: block; height: 0; overflow: hidden; width: 100%; visibility: hidden;}
+.clearfix{zoom: 1;}
+.clearfix:after{content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.none{display: none;}
+
+body{background:#1970d9 url(../images/loginbg.jpg) no-repeat center top; }
+
+.wrapper{}
+.wrapper .inner{margin:0 auto;}
+#container{}
+#container.login .inner{width:1000px;padding-top: 114px;padding-bottom:100px;text-align:center;}
+
+.login-form{}
+h1.login-title{font-size:32px; color:#fff;}
+h2.login-title{margin-top:48px;font-size:22px; color:#fff;}
+.login-con{margin-top:35px;margin-left: 333px;}
+.login-form li{padding:7px 0;text-align:left; }
+.login-form li.lis{padding:0px 0; text-align:left; }
+.login-form li .yzm{width:100px; margin-left:10px; vertical-align:middle;}
+.login-form li .names{display:inline-block;width:58px; text-align:right}
+.login-form input{height: 26px;line-height: 26px;padding:2px;border:1px solid #d8d8d8;vertical-align:middle;}
+.login-form input.text{width:220px;}
+.login-form input.btns{display:inline-block; width:130px;height:38px; border:none;font-size:14px; font-family:"Microsoft Yahei"; color:#fff; background:url('../images/btn_bg.jpg') repeat-x left center; border-radius:4px;}
+.login-form input.code{width:110px}
+.login-form label{font-size:14px;}
+
+

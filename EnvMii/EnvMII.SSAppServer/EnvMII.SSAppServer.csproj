@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB6AFCBD-2193-402E-9306-521599D255BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EnvMII.SSAppServer</RootNamespace>
+    <AssemblyName>EnvMII.SSAppServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\DLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Common">
+      <HintPath>..\DLL\SuperSocket.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Facility">
+      <HintPath>..\DLL\SuperSocket.Facility.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketBase">
+      <HintPath>..\DLL\SuperSocket.SocketBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketEngine">
+      <HintPath>..\DLL\SuperSocket.SocketEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACLWCAR\ACLWCARDataResolver.cs" />
+    <Compile Include="ACLWCAR\ACLWCARProtocolServer.cs" />
+    <Compile Include="ACLWCAR\ACLWCARProtocolSession.cs" />
+    <Compile Include="ACLWCAR\ACLWCARReceiveFilter.cs" />
+    <Compile Include="ACTWCAR\ACTWCARDataResolver.cs" />
+    <Compile Include="ACTWCAR\ACTWCARProtocolServer.cs" />
+    <Compile Include="ACTWCAR\ACTWCARProtocolSession.cs" />
+    <Compile Include="ACTWCAR\ACTWCARReceiveFilter.cs" />
+    <Compile Include="ANEMOCLINOGRAP\ANEMOCLINOGRAPDataResolver.cs" />
+    <Compile Include="ANEMOCLINOGRAP\ANEMOCLINOGRAPProtocolServer.cs" />
+    <Compile Include="ANEMOCLINOGRAP\ANEMOCLINOGRAPProtocolSession.cs" />
+    <Compile Include="ANEMOCLINOGRAP\ANEMOCLINOGRAPReceiveFilter.cs" />
+    <Compile Include="CommonDateConvert.cs" />
+    <Compile Include="CommonSession.cs" />
+    <Compile Include="LouverlightSensor\LouverlightSensorDataResolver.cs" />
+    <Compile Include="LouverlightSensor\LouverlightSensorProtocolServer.cs" />
+    <Compile Include="LouverlightSensor\LouverlightSensorProtocolSession.cs" />
+    <Compile Include="LouverlightSensor\LouverlightSensorReceiveFilter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TH10WWiFi\TH10WDataResolver.cs" />
+    <Compile Include="TH10WWiFi\TH10WProtocolServer.cs" />
+    <Compile Include="TH10WWiFi\TH10WProtocolSession.cs" />
+    <Compile Include="TH10WWiFi\TH10WReceiveFilter.cs" />
+    <Compile Include="TH11SBRS485\TH11SDataResolver.cs" />
+    <Compile Include="TH11SBRS485\TH11SProtocolServer.cs" />
+    <Compile Include="TH11SBRS485\TH11SProtocolSession.cs" />
+    <Compile Include="TH11SBRS485\TH11SReceiveFilter.cs" />
+    <Compile Include="Tools.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EnvMII.VO\EnvMII.VO.csproj">
+      <Project>{537077C7-9AEC-4F11-BFD2-BBE2D28583EE}</Project>
+      <Name>EnvMII.VO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

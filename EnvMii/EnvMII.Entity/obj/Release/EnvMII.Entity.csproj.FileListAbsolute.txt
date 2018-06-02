@@ -1,0 +1,10 @@
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EnvMii\EnvMII.Entity\bin\Release\EnvMII.Entity.dll
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EnvMii\EnvMII.Entity\bin\Release\EnvMII.Entity.pdb
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EnvMii\EnvMII.Entity\obj\Release\ResolveAssemblyReference.cache
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EnvMii\EnvMII.Entity\obj\Release\EnvMII.Entity.dll
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EnvMii\EnvMII.Entity\obj\Release\EnvMII.Entity.pdb
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EnvMii\EnvMII.Entity\bin\Release\EnvMII.Entity.dll
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EnvMii\EnvMII.Entity\bin\Release\EnvMII.Entity.pdb
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EnvMii\EnvMII.Entity\obj\Release\ResolveAssemblyReference.cache
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EnvMii\EnvMII.Entity\obj\Release\EnvMII.Entity.dll
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EnvMii\EnvMII.Entity\obj\Release\EnvMII.Entity.pdb

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\水产养殖及加工智能制造平台\Solution\exchangenode" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="05/27/2018 12:00:16" />
+    <file relUrl="bin/LAF.Data.Attributes.dll" publishTime="05/27/2018 10:03:10" />
+    <file relUrl="bin/ExchangeEntity.pdb" publishTime="05/27/2018 12:00:11" />
+    <file relUrl="Service1.svc" publishTime="03/21/2018 20:02:30" />
+    <file relUrl="bin/MongoDB.Driver.dll" publishTime="03/20/2018 21:21:20" />
+    <file relUrl="bin/LAF.Common.pdb" publishTime="05/27/2018 10:03:13" />
+    <file relUrl="bin/NPOI.dll" publishTime="12/11/2014 05:48:28" />
+    <file relUrl="bin/NPOI.OOXML.dll" publishTime="12/11/2014 05:48:35" />
+    <file relUrl="bin/QMFrameWork.Data.dll" publishTime="05/27/2018 10:03:15" />
+    <file relUrl="bin/LAF.Common.dll" publishTime="05/27/2018 10:03:14" />
+    <file relUrl="bin/ExchangeEntity.dll" publishTime="05/27/2018 12:00:11" />
+    <file relUrl="bin/NPOI.OpenXml4Net.dll" publishTime="12/11/2014 05:48:29" />
+    <file relUrl="bin/Oracle.DataAccess.dll" publishTime="08/31/2012 06:21:24" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="11/19/2012 14:57:14" />
+    <file relUrl="bin/QMFrameWork.Data.pdb" publishTime="05/27/2018 10:03:15" />
+    <file relUrl="Global.asax" publishTime="03/25/2018 16:27:48" />
+    <file relUrl="bin/EmitMapper.dll" publishTime="01/06/2010 01:06:36" />
+    <file relUrl="bin/NPOI.OpenXmlFormats.dll" publishTime="12/11/2014 05:48:33" />
+    <file relUrl="bin/LAF.Data.Attributes.pdb" publishTime="05/27/2018 10:03:10" />
+    <file relUrl="bin/ICSharpCode.SharpZipLib.dll" publishTime="07/03/2014 10:56:49" />
+    <file relUrl="bin/ExchangeNode.dll" publishTime="05/27/2018 12:00:11" />
+    <file relUrl="bin/ExchangeNode.pdb" publishTime="05/27/2018 12:00:11" />
+    <file relUrl="bin/MongoDB.Bson.dll" publishTime="03/20/2018 21:21:20" />
+  </publishProfile>
+</publishData>

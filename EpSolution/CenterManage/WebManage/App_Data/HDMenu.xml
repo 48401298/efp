@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--MenuType，menu：菜单,action：功能-->
+<!--IsPower，true：进行权限校验,false：不进行权限校验-->
+<MenuList>  
+  <MenuItem MenuID="01000000" MenuDes="原材料入库" IsPower="true" Action="GotoUrl('WH/In/MlInStorageByMobile.aspx');" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="02000000" MenuDes="产成品入库" IsPower="true" Action="GotoUrl('WH/In/FGInStorageByMobile.aspx');" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="03000000" MenuDes="原材料出库" IsPower="true" Action="GotoUrl('WH/Out/MlOutStorageByMobile.aspx');" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="04000000" MenuDes="产成品出库" IsPower="true" Action="GotoUrl('WH/Out/FGOutStorageByMobile.aspx');" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="InsideMove" MenuDes="库内移动" IsPower="true" Action="GotoUrl('WH/Move/InsideMoveByMobile.aspx');" PowerID="InsideMove" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="05000000" MenuDes="原材料上线" IsPower="true" Action="GotoUrl('MES/Tracking/MaterialOnline.aspx');" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="06000000" MenuDes="追溯跟踪" IsPower="true" Action="GotoUrl('MES/Tracking/MaterialTrace.aspx');" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="07000000" MenuDes="在加工列表" IsPower="true" Action="GotoUrl('MES/Tracking/OnProcessingList.aspx');" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="08000000" MenuDes="成品装箱" IsPower="true" Action="GotoUrl('MES/Tracking/MaterialPacking.aspx');" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="09000000" MenuDes="产成品下线" IsPower="true" Action="GotoUrl('MES/Tracking/MaterialOffline.aspx');" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+  <MenuItem MenuID="10000000" MenuDes="生产计划管理" IsPower="true" Action="GotoUrl('MES/Tracking/ProducePlanManage.aspx');" PowerID="01000000" Visible="true" Ico="../../Content/Menu/images/ico/2.gif" SuperID="HD" Seq="2">
+    <Actions>
+    </Actions>
+  </MenuItem>
+</MenuList>

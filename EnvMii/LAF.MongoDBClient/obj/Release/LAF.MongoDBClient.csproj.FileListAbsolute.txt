@@ -1,0 +1,10 @@
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EnvMii\LAF.MongoDBClient\bin\Release\LAF.MongoDBClient.dll
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EnvMii\LAF.MongoDBClient\bin\Release\LAF.MongoDBClient.pdb
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EnvMii\LAF.MongoDBClient\obj\Release\ResolveAssemblyReference.cache
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EnvMii\LAF.MongoDBClient\obj\Release\LAF.MongoDBClient.dll
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EnvMii\LAF.MongoDBClient\obj\Release\LAF.MongoDBClient.pdb
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EnvMii\LAF.MongoDBClient\bin\Release\LAF.MongoDBClient.dll
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EnvMii\LAF.MongoDBClient\bin\Release\LAF.MongoDBClient.pdb
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EnvMii\LAF.MongoDBClient\obj\Release\ResolveAssemblyReference.cache
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EnvMii\LAF.MongoDBClient\obj\Release\LAF.MongoDBClient.dll
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EnvMii\LAF.MongoDBClient\obj\Release\LAF.MongoDBClient.pdb

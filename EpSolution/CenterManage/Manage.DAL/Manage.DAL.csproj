@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{407204CD-0256-4EDD-8A89-26EBF83D19A7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Manage.DAL</RootNamespace>
+    <AssemblyName>Manage.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppDataSessionFactory.cs" />
+    <Compile Include="BaseDAL.cs" />
+    <Compile Include="BI\MatStockStateDAL.cs" />
+    <Compile Include="Inspect\InspectItemDAL.cs" />
+    <Compile Include="Inspect\InspectDeviceDAL.cs" />
+    <Compile Include="Inspect\InspectDataDAL.cs" />
+    <Compile Include="Inspect\InspectResultDAL.cs" />
+    <Compile Include="Inspect\InspectMapDAL.cs" />
+    <Compile Include="Inspect\InspectStatisticsDAL.cs" />
+    <Compile Include="Inspect\InspectStatisticsEChartDAL.cs" />
+    <Compile Include="MES\EquipmentDAL.cs" />
+    <Compile Include="MES\FactoryInfoDAL.cs" />
+    <Compile Include="MES\GoodInfoDAL.cs" />
+    <Compile Include="MES\GoodPackingDAL.cs" />
+    <Compile Include="MES\ProcessCheckDAL.cs" />
+    <Compile Include="MES\ProcessFlowDAL.cs" />
+    <Compile Include="MES\ProcessInfoDAL.cs" />
+    <Compile Include="MES\ProduceDOMDAL.cs" />
+    <Compile Include="MES\ProducePlanDAL.cs" />
+    <Compile Include="MES\ProduceTrackDAL.cs" />
+    <Compile Include="MES\ProductInfoDAL.cs" />
+    <Compile Include="MES\ProductLineDAL.cs" />
+    <Compile Include="MES\QualityCheckDAL.cs" />
+    <Compile Include="MES\SchedulingInfoDAL.cs" />
+    <Compile Include="MES\SupplyInfoDAL.cs" />
+    <Compile Include="MES\TrackManageDAL.cs" />
+    <Compile Include="MES\WorkGroupDAL.cs" />
+    <Compile Include="MES\WorkStationDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Query\QualityTraceQueryDAL.cs" />
+    <Compile Include="Sys\DataChangeManageDAL.cs" />
+    <Compile Include="Sys\LoginDAL.cs" />
+    <Compile Include="Sys\NoticeManageDAL.cs" />
+    <Compile Include="Sys\OrgaizationManageDAL.cs" />
+    <Compile Include="Sys\RoleManageDAL.cs" />
+    <Compile Include="Sys\UserManageDAL.cs" />
+    <Compile Include="Sys\SystemOperateLogDAL.cs" />
+    <Compile Include="Video\VDCameraDAL.cs" />
+    <Compile Include="Video\VDPositionDAL.cs" />
+    <Compile Include="WH\CheckStockDAL.cs" />
+    <Compile Include="WH\InStockQueryDAL.cs" />
+    <Compile Include="WH\MatTypeDAL.cs" />
+    <Compile Include="WH\InStockDAL.cs" />
+    <Compile Include="WH\MoveStockDAL.cs" />
+    <Compile Include="WH\OutStockDAL.cs" />
+    <Compile Include="WH\QualityCheckDAL.cs" />
+    <Compile Include="WH\StockAccountDAL.cs" />
+    <Compile Include="WH\StockDAL.cs" />
+    <Compile Include="WH\StockOverdueAlarmDAL.cs" />
+    <Compile Include="WH\StockWarningDAL.cs" />
+    <Compile Include="WH\UseMatDAL.cs" />
+    <Compile Include="WH\WarehouseDAL.cs" />
+    <Compile Include="WH\WHInModeDAL.cs" />
+    <Compile Include="WH\WHPowerDAL.cs" />
+    <Compile Include="WH\WHSiteDAL.cs" />
+    <Compile Include="WH\MatUnitDAL.cs" />
+    <Compile Include="WH\WHSpecDAL.cs" />
+    <Compile Include="WH\WHMatDAL.cs" />
+    <Compile Include="WH\WHOutModeDAL.cs" />
+    <Compile Include="WH\WHProviderDAL.cs" />
+    <Compile Include="WH\WHClientDAL.cs" />
+    <Compile Include="WH\WHMatSpecDAL.cs" />
+    <Compile Include="WH\WHAreaDAL.cs" />
+    <Compile Include="WH\OutStockQueryDAL.cs" />
+    <Compile Include="WH\StockLimitDAL.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LAF\LAF.Entity\LAF.Entity.csproj">
+      <Project>{14ABACE5-52C5-42B5-95CA-F9BEFEF194EC}</Project>
+      <Name>LAF.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Manage.Entity\Manage.Entity.csproj">
+      <Project>{604FB24F-7706-497C-BEC7-27D7B6B5A82C}</Project>
+      <Name>Manage.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LAF\LAF.Common\LAF.Common.csproj">
+      <Project>{52532479-4194-491F-9F2F-050DF772B54D}</Project>
+      <Name>LAF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LAF\LAF.Data.Attributes\LAF.Data.Attributes.csproj">
+      <Project>{417EBF7F-183D-4811-8649-6C289E490E9A}</Project>
+      <Name>LAF.Data.Attributes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LAF\LAF.Data\LAF.Data.csproj">
+      <Project>{83F98AD2-BBB5-4DF3-BCD8-D16FAC32F80B}</Project>
+      <Name>LAF.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LAF\LAF.Log\LAF.Log.csproj">
+      <Project>{C0DA212B-70C2-4939-8F38-CA6F85380791}</Project>
+      <Name>LAF.Log</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

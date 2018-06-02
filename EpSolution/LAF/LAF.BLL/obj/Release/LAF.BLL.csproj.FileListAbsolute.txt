@@ -1,0 +1,14 @@
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.BLL\bin\Release\LAF.BLL.dll
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.BLL\bin\Release\LAF.BLL.pdb
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.BLL\bin\Release\LAF.Entity.dll
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.BLL\bin\Release\LAF.Entity.pdb
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.BLL\obj\Release\ResolveAssemblyReference.cache
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.BLL\obj\Release\LAF.BLL.dll
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.BLL\obj\Release\LAF.BLL.pdb
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.BLL\bin\Release\LAF.BLL.dll
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.BLL\bin\Release\LAF.BLL.pdb
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.BLL\bin\Release\LAF.Entity.dll
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.BLL\bin\Release\LAF.Entity.pdb
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.BLL\obj\Release\ResolveAssemblyReference.cache
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.BLL\obj\Release\LAF.BLL.dll
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.BLL\obj\Release\LAF.BLL.pdb

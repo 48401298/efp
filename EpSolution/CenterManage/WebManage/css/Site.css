@@ -1,0 +1,173 @@
+﻿body
+{
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+/*页面样式*/
+#condiTable 
+{
+    
+}
+#condiTable th
+{
+    text-align: right;
+    padding-left: 5px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;   
+}
+.condiTable th
+{
+    text-align: right;
+    padding-left: 5px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;   
+}
+
+#editTable
+{
+  
+}
+
+#editTable th
+{
+    border-bottom: 1px #dbdbdb solid;
+    border-right: 1px #dbdbdb solid;
+    text-align: right;
+    padding: 6px 3px 6px 5px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #eff3ff;
+}
+
+#editTable td
+{
+    padding: 3px;
+    border-bottom: 1px #dbdbdb solid;
+    border-right: 1px #dbdbdb solid;
+}
+
+.editTable
+{
+    
+}
+
+.editTable th
+{
+    border-bottom: 1px #dbdbdb solid;
+    border-right: 1px #dbdbdb solid;
+    text-align: right;
+    padding: 6px 3px 6px 5px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #eff3ff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+}
+
+.editTable td
+{
+    padding: 3px;
+    border-bottom: 1px #dbdbdb solid;
+    border-right: 1px #dbdbdb solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top-color: #dbdbdb;
+    border-right-color: #dbdbdb;
+    border-bottom-color: #dbdbdb;
+}
+
+#viewTable
+{
+   width: 100%;
+}
+
+#viewTable th
+{
+    border-bottom: 1px #dbdbdb solid;
+	border-right: 1px #dbdbdb solid;
+    text-align: right;
+    padding: 6px 3px 6px 5px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #eff3ff;
+    width:80px;
+}
+
+#viewTable td
+{
+    padding: 6px 3px 6px 3px;
+    border-bottom: 1px #dbdbdb solid;
+    border-right: 1px #dbdbdb solid;    
+}
+
+.viewTable
+{
+    width: 100%;
+}
+
+.viewTable th
+{
+    border-bottom: 1px #dbdbdb solid;
+    border-right: 1px #dbdbdb solid;
+    text-align: right;
+    padding: 6px 3px 6px 5px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #eff3ff;
+    width:80px;
+}
+
+.viewTable td
+{
+    padding: 6px 3px 6px 3px;
+    border-bottom: 1px #dbdbdb solid;
+    border-right: 1px #dbdbdb solid;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 12px;    
+}
+
+.tblPtb th
+{
+    border-width: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.tblPtb td
+{
+    border-width: 0px;
+    padding: 0px 0px 0px 0px;
+}
+.toolTable
+{
+    padding: 2px;
+}
+/*页面样式*/
+.queryul{padding: 0px; }  
+.queryul li{  
+       list-style:none; 
+       display:inline-block;
+       height:24px; 
+       width:240px;
+       text-align: right;
+       float:left;
+    }     
+    .queryul li label{  
+        text-align: right;
+        margin-left: 3px;
+        margin-right: 3px;
+        font-family: 宋体, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: normal; 
+    } 

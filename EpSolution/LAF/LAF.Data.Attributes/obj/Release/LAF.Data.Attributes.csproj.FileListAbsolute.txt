@@ -1,0 +1,10 @@
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.Data.Attributes\bin\Release\LAF.Data.Attributes.dll
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.Data.Attributes\bin\Release\LAF.Data.Attributes.pdb
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.Data.Attributes\obj\Release\ResolveAssemblyReference.cache
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.Data.Attributes\obj\Release\LAF.Data.Attributes.dll
+D:\水产养殖及加工智能制造平台\Solution\l1196.IF\trunk\EpSolution\LAF\LAF.Data.Attributes\obj\Release\LAF.Data.Attributes.pdb
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.Data.Attributes\bin\Release\LAF.Data.Attributes.dll
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.Data.Attributes\bin\Release\LAF.Data.Attributes.pdb
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.Data.Attributes\obj\Release\ResolveAssemblyReference.cache
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.Data.Attributes\obj\Release\LAF.Data.Attributes.dll
+D:\水产养殖及加工智能制造平台\ipv6著作权\code\EpSolution\LAF\LAF.Data.Attributes\obj\Release\LAF.Data.Attributes.pdb
